@@ -3,7 +3,7 @@ using Ninject.Modules;
 
 namespace Wishlist.Data.DependencyConfiguration
 {
-    class DataNinjectModule : NinjectModule
+    public class DataNinjectModule : NinjectModule
     {
         public override void Load()
         {
